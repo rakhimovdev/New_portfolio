@@ -23,7 +23,9 @@ function Main() {
                 </div>
                 <div className='Btn'>
                     <button>Download Resume</button>
-                    <button>Contact me</button>
+                    <a href="/contact">
+                        <button>Contact me</button>
+                    </a>
                 </div>
             </div>
             <div className="inMain2">
