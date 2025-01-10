@@ -3,7 +3,6 @@ import "./About.css"
 function About() {
     return (
         <div className='About'>
-
             <div className="myself">
                 <h1 className='h1'>About me:</h1>
                 <h1>Hello my full name is Rahimjonov Muhammadali.</h1>

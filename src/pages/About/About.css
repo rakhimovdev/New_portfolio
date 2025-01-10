@@ -254,3 +254,47 @@
 .Box h2 {
     margin-bottom: 5px;
 }
+
+@media (max-width:450px) {
+    .About {
+        flex-direction: column;
+    }
+
+    .myself {
+        width: 350px;
+        margin-bottom: 40px;
+        margin-top: 30px;
+    }
+
+    .skils {
+        width: 350px;
+    }
+
+    .html {
+        width: 340px;
+    }
+
+    .css {
+        width: 340px;
+    }
+
+    .tailwind {
+        width: 340px;
+    }
+
+    .sass {
+        width: 340px;
+    }
+
+    .javascript {
+        width: 340px;
+    }
+
+    .react {
+        width: 340px;
+    }
+
+    .node {
+        width: 340px;
+    }
+}
