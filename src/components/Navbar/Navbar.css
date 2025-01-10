@@ -60,3 +60,7 @@
 .menu-1 a:hover::before {
     transform-origin: 0 50%;
 }
+
+a {
+    text-shadow: 0 0 10px #ffe600;
+}
