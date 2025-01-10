@@ -105,4 +105,11 @@
         text-align: center;
     }
 
+    .inMain2 {
+        width: 390px;
+    }
+
+    .inMain2 img {
+        width: 360px;
+    }
 }
