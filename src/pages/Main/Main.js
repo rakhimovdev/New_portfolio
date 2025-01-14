@@ -11,7 +11,7 @@ function Main() {
     });
     const downloadResume = () => {
         const link = document.createElement('a');
-        link.href = '../../Images/10-A sinf i.doc'; // Fayl manzili
+        link.href = '../../Images/photo_2023-10-13_15-09-43.pdf'; // Fayl manzili
         link.download = 'resume.pdf';           // Fayl nomi
         link.click();
     };
