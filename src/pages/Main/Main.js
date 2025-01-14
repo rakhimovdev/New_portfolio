@@ -22,7 +22,9 @@ function Main() {
                     </h1>
                 </div>
                 <div className='Btn'>
-                    <button>Download Resume</button>
+                    <a href="../../Images/10-A sinf i.doc" download>
+                        <button>Download Resume</button>
+                    </a>
                     <a href="/contact">
                         <button>Contact me</button>
                     </a>
