@@ -9,6 +9,12 @@ function Main() {
         loop: 0, // 0 -> Infinite loop
         delaySpeed: 1500, // Delay between each word
     });
+    const downloadResume = () => {
+        const link = document.createElement('a');
+        link.href = '../../Images/10-A sinf i.doc'; // Fayl manzili
+        link.download = 'resume.pdf';           // Fayl nomi
+        link.click();
+    };
 
     return (
         <div className='Main'>
@@ -22,9 +28,7 @@ function Main() {
                     </h1>
                 </div>
                 <div className='Btn'>
-                    <a href="../../Images/10-A sinf i.doc" download>
-                        <button>Download Resume</button>
-                    </a>
+                    <button onClick={downloadResume}>Download Resume</button>
                     <a href="/contact">
                         <button>Contact me</button>
                     </a>
