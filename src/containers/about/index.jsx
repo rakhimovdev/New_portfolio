@@ -25,12 +25,12 @@ const personalDetails = [
   },
   {
     label: "Contact No:",
-    value: "+998 058889876",
+    value: "+998 95 888 9876",
   },
 ];
 
 const jobSummary =
-  "Seasoned and independent Front End Developer with 2 years of experience in blending the art of design with skill of programming to deliver an immersive and engaging user experience through efficient website development, proactive feature optimization, and relentless debugging. Very passionate about aesthetics and UI design. It is imperative that you provide a thorough and professional approach to your resume. As a Front End Developer you will be judged by your ability to use UX and UI concepts and follow design guidelines. It is about expressing your attention to detail and how you can help implement design ideas for your future employer";
+  "Full Stack Web Developer with 3 years of hands-on experience building scalable, responsive, and user-focused web applications. Proficient in both frontend and backend development, with strong expertise in modern JavaScript frameworks, API development, and database management. Passionate about writing clean, maintainable code and delivering high-quality solutions that enhance user experience and performance. Adept at problem-solving, debugging, and continuously learning new technologies to improve development efficiency and product quality.";
 
 const About = () => {
   return (
